@@ -102,7 +102,7 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "prettier": "prettier --write \"{,**/}*.{ts,tsx,js,json,md}\"",
-    "postinstall": "npm run build"
+    "postinstall": "npm i && npm run build"
   },
   "author": "Jan Mühlemann <jan.muehlemann@gmail.com> (https://github.com/jamuhl)",
   "license": "MIT",
