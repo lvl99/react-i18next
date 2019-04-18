@@ -19,7 +19,7 @@ node_modules
 node_modules/**/*
 coverage/**/*
 example/build/**/*
-dist/**/*
+# dist/**/* # allowing for build on my own github repo for dist via github URL
 .next
 package-lock.json
 out

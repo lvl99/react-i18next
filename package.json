@@ -101,8 +101,7 @@
     "test:typescript": "tslint --project tsconfig.json",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "prettier": "prettier --write \"{,**/}*.{ts,tsx,js,json,md}\"",
-    "postinstall": "npm i && npm run build"
+    "prettier": "prettier --write \"{,**/}*.{ts,tsx,js,json,md}\""
   },
   "author": "Jan Mühlemann <jan.muehlemann@gmail.com> (https://github.com/jamuhl)",
   "license": "MIT",
